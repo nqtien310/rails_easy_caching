@@ -1,0 +1,3 @@
+module RailsEasyCaching
+  VERSION = "0.0.1"
+end
