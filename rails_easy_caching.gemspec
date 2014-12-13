@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RailsEasyCaching::VERSION
   spec.authors       = ["Tien Nguyen"]
   spec.email         = ["nqtien310@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Simple wrapper for Rails cache}
+  spec.description   = %q{using EasyCaching is as easy as defining which methods/scopes/associations that you wanna cache.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
