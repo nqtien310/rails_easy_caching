@@ -1,5 +1,10 @@
-ENV['RAILS_ENV'] ||= 'test'
+require 'rubygems'
+require 'bundler/setup'
+require 'rails'
+require 'active_record'
 require 'spec_helper'
+require 'byebug'
+Bundler.require(:default)
 
 RSpec.configure do |config|
   config.expect_with :rspec do |c|
