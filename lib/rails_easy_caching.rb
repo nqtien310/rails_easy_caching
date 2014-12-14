@@ -4,6 +4,12 @@ require 'configuration'
 module RailsEasyCaching
   extend ActiveSupport::Concern
 
+  class Railtie < Rails::Railtie
+    config.before_configuration do
+      ActiveRecord::Base.send(:include, RailsEasyCaching)
+    end
+  end
+
   module ClassMethods
     def cached(key, options = {})
       define_method "cached_#{key}" do
