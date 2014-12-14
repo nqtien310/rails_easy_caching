@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/rails_easy_caching.svg)](http://badge.fury.io/rb/rails_easy_caching)
+
 # Rails::Easy::Caching
 
 Simple wrapper for Rails cache, using EasyCaching is as easy as defining which methods/scopes/associations that you wanna cache.
