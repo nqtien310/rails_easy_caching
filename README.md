@@ -30,6 +30,13 @@ Then you can access the cached data:
 sucker = User.last
 sucker.cached_wifes
 ````
+Specify the cached attributes
+````
+model User
+    has_many :wifes
+    cached :wifes, attrs: [:name, :age]
+end
+````
 Burn cache has the same amount of easy
 ````
 sucker = User.last
